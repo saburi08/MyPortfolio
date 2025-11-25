@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <!-- Section title centered -->
+            <div class="section-title-container">
+                <h2 class="section-title">My Work</h2>
+                <p class="section-subtitle">Glimpse of my projects</p>
+            </div>
+
+            <!-- Project flex container -->
+            <div class="projects-container">
+                <div class="project-flex-container">
+                    <!-- Content on left -->
+                    <div class="project-content">
+                        <!-- Project title left aligned -->
+                        <h3 class="project-title">Dance Workshop Platform</h3>
+                        <p class="project-description">
+                            I have developed a platform using the MERN stack (MongoDB, Express.js, React, Node.js) specifically designed for dancers to promote their workshops and connect with their audience. Key features include workshop promotion, user engagement, and responsive design that fosters a vibrant community.
+                        </p>
+                        <!-- Tags below description -->
+                        <div class="project-tags">
+                            <span class="project-tag">MERN Stack</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">POST Man</span>
+                        </div>
+                    </div>
+
+                    <!-- Image on right -->
+                    <div class="project-image-container">
+                        <img src="/images/project.jpeg" alt="project" class="project-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

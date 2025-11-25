@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="about-section">
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">
+                    Get to know more about my background and skills
+                </p>
+            </div>
+
+            <!-- Flex container: text on left, image on right -->
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-tagline">My Background</div>
+                    <h3 class="about-heading"> Curious Learner and Quick Adapter</h3>
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia quo reiciendis rerum. Alias asperiores beatae eius facilis illo, quis veritatis. A accusantium adipisci aperiam atque blanditiis commodi cum cupiditate delectus, doloribus dolorum ea eius est et expedita fuga in labore maxime molestiae natus nihil non obcaecati odit officiis porro provident quas quisquam quos reiciendis tempora temporibus unde veniam voluptatum?</p>
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corporis dolore enim eveniet facilis nobis quod repudiandae sequi? Accusamus architecto eaque est vero voluptates. Id illo neque nostrum odit quod?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis est excepturi fugiat nam nihil nobis odit repudiandae sit voluptatibus!</p>
+                    <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda beatae dolorem eligendi eos impedit, nihil provident quibusdam sit voluptate. Facere facilis odio quas! Assumenda hic impedit molestias quo velit?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid doloremque eveniet id ipsam magnam molestiae, recusandae rem repellat vero?</p>
+                </div>
+
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <div class="about-image-bg"></div>
+                        <img src="/images/hero-section.png" alt="about" class="about-img" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="skill-name">Java</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="skill-name">Java Script</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skill-name">React</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <div class="skill-name">MySQL</div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <div class="skill-name">NoSQL</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</th:block>
+</html>
